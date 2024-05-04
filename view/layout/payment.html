@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" href="../img/logo.jpg">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+        <link rel="stylesheet" href="../layout/asset/css/payment.css">
+        <title>Check Out</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav-left">
+                    <a href="../index.html"><img src="../img/logoOnly.jpg" alt></a>
+                    <i> NOAT Store </i>
+                </div>
+                <div class="nav-mid">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./products.html">Product</a></li>
+                        <li><a href="./service.html">Service</a></li>
+                        <li><a href="./aboutUS.html">About US</a></li>
+                        <li><a href="./News.html">News</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <div class="nav-right-btn">
+                        <i class="fa-regular fa-circle-user">
+                            <ul class="my_account">
+                                <li><a href="../page/my_account.html">My Account</a></li>
+                                <li><a href="../page/User.html">Login</a></li>
+                                <li><a href="../page/SignUp.html">Signup</a></li>
+                            </ul>
+                            <span>Login</span>
+                        </i>
+                        <a href="../page/Cart.html"><i class="fa-solid fa-cart-plus fa-beat"></i></a>
+                    </div>
+
+                    <div class="nav-right-btn-search">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                    <!-- barsssssssssssssss -->
+                    <label for="nav-mobile-input" class="nav-right-btn-bars">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                </div>
+
+                <!-- check input  -->
+                <input type="checkbox" class="nav-input-css" id="nav-mobile-input">
+
+                <!-- over play  -->
+                <label for="nav-mobile-input" class="nav-right-overlay"></label>
+
+                <!-- nav mobileeeeeeeeeeeeee -->
+                <div class="nav-mobile">
+                    <!-- closessss  -->
+                    <label for="nav-mobile-input" class="nav-mobile-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <ul class="nav-mobile-list">
+                        <li><a class="nav-mobile-link" href="../index.html">Home</a></li>
+                        <li><a class="nav-mobile-link" href="./products.html">Product</a></li>
+                        <li><a class="nav-mobile-link" href="./service.html">Service</a></li>
+                        <li><a class="nav-mobile-link" href="./aboutUS.html">About US</a></li>
+                        <li><a class="nav-mobile-link" href="./News.html">News</a></li>
+                        <li><a class="nav-mobile-link" href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- bannerrrrrrrrrrrrrrrrrrrrrrrrrrrrr -->
+        <section class="banner">
+            <div class="title-product-main">
+                <p>Home > Cart > <span>Checkout</span></p>
+
+                <h1>Check Out</h1>
+            </div>
+        </section>
+
+        <main>
+            <div class="wrapper-content-product">
+                <div class="content-product-right">
+                    <!-- <p>Information customer</p> -->
+
+                    <div class="infomation">
+                        <div class="infomation_customer">
+                            <h2>Shipping address</h2>
+
+                            <form action>
+                                <input type="text" placeholder="First Name*">
+                                <input type="text" placeholder="Last Name*">
+                                <input type="text" placeholder="Email Address*">
+                                <input type="text" placeholder="Phone No*">
+                                <input type="text" placeholder="Address 1*">
+                                <input type="text" placeholder="Address 2*">
+                                <input type="text" placeholder="Free day*">
+                                <input type="text" placeholder="Zip Code*">
+                                <div class="checkbox">
+                                    <input type="checkbox">
+                                    <span>Ship To Different Address</span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="infomation_payment_method">
+                        <p>Choose your courier</p>
+                        <!-- 1 -->
+                        <div class="mothod">
+                            <div class="mothod_detail">
+                                <input type="checkbox">
+                                <span>DHL Express</span>
+                            </div>
+                            <img src="../img/DHL-Logo-new.png" alt>
+                        </div>
+                        <!-- 2 -->
+                        <div class="mothod">
+                            <div class="mothod_detail">
+                                <input type="checkbox">
+                                <span>FedEx Express</span>
+                            </div>
+                            <img src="../img/Fedex_shing.png" alt>
+                        </div>
+                        <!-- 3 -->
+                        <div class="mothod">
+                            <div class="mothod_detail">
+                                <input type="checkbox">
+                                <span>Dpb Parcel</span>
+                            </div>
+                            <img src="../img/dpd_ship.jpg" alt>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="content-product-left">
+
+                    <div class="wrapper_payment_mothod">
+                        <div class="your_payment_mothod">
+                            <h2>Payment Method</h2>
+                            <div class="payment_mothod_detail">
+                                <img src="../img/visa_mothod.jpg" alt>
+                                <p>VISA CARD</p>
+                            </div>
+                            <div class="payment_mothod_detail">
+                                <img src="../img/Mastercard_method.jpg" alt>
+                                <p>MASTER CARD</p>
+                            </div>
+                            <div class="payment_mothod_detail">
+                                <img src="../img/cash_mothod.png" alt>
+                                <p>CASH ON DELIVERY</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>Your Order</p>
+                    <div class="wrapper_order">
+                        <div class="your_order">
+                            <!-- 1  -->
+                            <div class="detail_order">
+                                <h3>items</h3>
+                                <h3>4</h3>
+                            </div>
+                            <!-- 1  -->
+                            <div class="detail_order">
+                                <span>x2 T-Shirt Grey </span>
+                                <h3>$240</h3>
+                            </div>
+                            <!-- 1  -->
+                            <div class="detail_order">
+                                <span>x1 T-Shirt red </span>
+                                <h3>$120</h3>
+                            </div>
+                            <!-- 1  -->
+                            <div class="detail_order">
+                                <span>x1 T-Shirt yellow</span>
+                                <h3>$120</h3>
+                            </div>
+
+                            <!-- 5  -->
+                            <div class="detail_order detail_infor_product">
+                                <p>Sub Total</p>
+                                <h3>$480</h3>
+                            </div>
+                            <!-- 6  -->
+                            <div class="detail_order">
+                                <p>Discount</p>
+                                <h3>0$</h3>
+                            </div>
+                            <!-- 7  -->
+                            <div class="detail_order">
+                                <p>Shipping</p>
+                                <h3>$20</h3>
+                            </div>
+                            <!-- 8  -->
+                            <div class="detail_order detail_infor_total">
+                                <h3>Total</h3>
+                                <h3>$500</h3>
+                            </div>
+
+                        </div>
+
+                        <a href="./my_account.html">
+                            <input type="submit" value="Place order">
+
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+        <!-- footerrrrrrrrrrrrrrrrrrrrr  -->
+        <footer>
+            <div class="wrapper-footer1">
+                <div class="content-footer">
+                    <!-- 1 -->
+                    <div class="detail-content-footer footer1">
+                        <h3>About Us</h3>
+                        <p>Mauris vitae ultricies leo integer
+                            malesuada.
+                            Odio tempor orci dapibus ultrices in. Egestas diam in arcu cursus
+                            euismod.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
+                            tempor incididunt.</p>
+                    </div>
+                    <!-- 2 -->
+                    <div class="detail-content-footer">
+                        <h3>Account</h3>
+                        <p>My Account</p>
+                        <p>My Wishlist</p>
+                        <p>My Cart</p>
+                        <p>Sign in</p>
+                        <p>Check out</p>
+                    </div>
+                    <!-- 3 -->
+                    <div class="detail-content-footer">
+                        <h3>Shipping</h3>
+                        <p>New Products</p>
+                        <p>Best Sellers</p>
+                        <p>Manufacturers</p>
+                        <p>Suppliers</p>
+                        <p>Specials</p>
+                    </div>
+                    <!-- 4 -->
+                    <div class="detail-content-footer">
+                        <h3>Contact Us</h3>
+                        <p>Phone: (+63) 555 1212</p>
+                        <p>Fax: (+63) 555 0100</p>
+                        <p>New York,96th Street, NY 10129</p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="wrapper-footer2">
+                <div class="logo-footer">
+                    <img src="../img/./logoOnly.jpg">
+                    <span>NOAT Store</span>
+                </div>
+                <div class="license">
+                    <p>2023 - coder by NTT</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="../js/jscart.js"></script>
+        <script>
+            showggiohang_trangthanhtoan();
+        </script>
+    </body>
+</html>

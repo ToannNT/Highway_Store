@@ -1,0 +1,359 @@
+
+
+
+
+/* bannerrrrrrrrrrrrrrrrrrr */
+.banner {
+    /* margin-top: 100px; */
+    width: 100%;
+    height: 500px;
+    background-color: #dedddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-product-main {
+    /* padding-bottom: 120px; */
+    margin: 0 auto;
+    text-align: center;
+    /* line-height: 60px; */
+    width: 80%;
+    min-height: 150px;
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+    /* margin-top: 110px; */
+}
+
+.title-product-main h1 {
+    font-size: 70px;
+    padding-top: 20px;
+}
+
+.title-product-main span {
+    font-weight: bold;
+}
+
+.wrapper-banner {
+    /* margin-top: 100px; */
+    width: 100%;
+    margin: 0 auto;
+    min-height: 1000px;
+    /* background-color: #988f8f; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.introducaiton {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    /* left: 200px; */
+    width: 80%;
+    min-height: 600px;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-introducation {
+    width: 47%;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.content-introducation:hover {
+    background-color: rgb(214, 57, 57);
+}
+
+.detail-introducation {
+    width: 85%;
+    min-height: 180px;
+    /* background-color: rgb(139, 24, 95); */
+}
+
+
+.icon-introducation {
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+.icon-introducation i {
+    font-size: 30px;
+    color: white;
+}
+
+.icon-introducation h4 {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.detail-introducation p {
+    text-align: start;
+    font-size: 15px;
+    margin-left: 60px;
+    color: white;
+}
+
+
+
+
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* secton2222222222222222222222222222222 */
+.section2 {
+    width: 80%;
+    min-height: 600px;
+    /* background-color: #8c4132; */
+    margin: 0 auto;
+}
+
+.space-st2 {
+    /* width: 1200px; */
+    /* height: 50px; */
+    /* background-color: #dedddd; */
+}
+
+.content-st2 {
+    width: 100%;
+    min-height: 500px;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.detail-st2-left {
+    width: 45%;
+    /* height: 500px; */
+    /* background-color: aqua; */
+}
+
+.detail-st2-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detail-st2-right {
+    width: 45%;
+    min-height: 500px;
+    /* background-color: aqua; */
+}
+
+.detail-st2-right span {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.detail-st2-right h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 55px;
+}
+
+.detail-st2-right p {
+    word-spacing: 5px;
+    line-height: 25px;
+    margin-bottom: 42px;
+}
+
+.detail-st2-right input {
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    width: 200px;
+    font-size: 18px;
+    padding: 20px;
+
+}
+
+.detail-st2-right input:hover {
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+
+
+/* section3333333333333333333333 */
+.section3 {
+    width: 80%;
+    min-height: 600px;
+    /* background-color: #8c4132; */
+    margin: 0 auto;
+}
+
+.space-st3 {
+    /* width: 1200px; */
+    /* height: 50px; */
+    /* background-color: #dedddd; */
+}
+
+.content-st3 {
+    width: 100%;
+    min-height: 500px;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.detail-st3-left {
+    width: 45%;
+    /* height: 500px; */
+    /* background-color: aqua; */
+}
+
+.detail-st3-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detail-st3-right {
+    width: 45%;
+    min-height: 500px;
+    /* background-color: aqua; */
+}
+
+.detail-st3-right span {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.detail-st3-right h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 55px;
+}
+
+.detail-st3-right p {
+    word-spacing: 5px;
+    line-height: 25px;
+    margin-bottom: 42px;
+}
+
+.detail-st3-right input {
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    width: 200px;
+    font-size: 18px;
+    padding: 20px;
+
+}
+
+.detail-st3-right input:hover {
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* Newsletter-updates */
+.Newsletter-updates {
+    position: relative;
+    width: 80%;
+    min-height: 550px;
+    margin: 0 auto;
+    /* background-color: rgb(168, 150, 126); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Newsletter-updates > img {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .wrapper-Newsletter {
+    position: absolute;
+    width: 100%;
+    /* min-height: 590px; */
+    /* background-color: rgb(52, 29, 6); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content-Newsletter {
+    width: 60%;
+    min-height: 90px;
+    /* margin: 0 auto; */
+    /* background-color: rgb(103, 32, 8); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn-Newsletter {
+    width: 100%;
+    display: flex;
+  }
+  
+  .row1 h1 {
+    color: white;
+    font-size: 37px;
+  }
+  
+  .row2 {
+    /* width: 100%; */
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .btn-Newsletter1 {
+    width: 68%;
+    padding: 15px;
+    font-size: 0.8rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .btn-Newsletter2 {
+    width: 29%;
+    margin-left: 5px;
+    padding: 15px;
+    font-size: 0.8rem;
+    background-color: #000000;
+    color: white;
+    border: none;
+  }
+  
+  .btn-Newsletter2:hover {
+    background-color: #bc363b;
+  }

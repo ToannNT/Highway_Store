@@ -1,0 +1,99 @@
+
+
+
+/* bannerrr */
+
+.banner {
+    margin-top: 100px;
+    width: 100%;
+    min-height: 300px;
+    background-color: #dedddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-product-main {
+    /* padding-bottom: 120px; */
+    margin: 0 auto;
+    text-align: center;
+    /* line-height: 60px; */
+    width: 80%;
+    min-height: 150px;
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+}
+
+.title-product-main h1 {
+    font-size: 70px;
+    padding-top: 20px;
+}
+
+.title-product-main span {
+    font-weight: bold;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Popular Posttttttttttttttttttttttttttt */
+.Popular-Post {
+    margin: 0 auto;
+    width: 80%;
+    min-height: 1100px;
+    margin-top: 60px;
+    /* background-color: rgb(129, 92, 37); */
+}
+
+
+
+
+
+.view-Popular-Post {
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 520px;
+    /* background-color: antiquewhite; */
+
+}
+
+.content-Popular-Post {
+    width: 30%;
+    min-height: 520px;
+    margin-bottom: 30px;
+}
+
+.content-Popular-img {
+    width: 100%;
+    /* height: 250px; */
+}
+
+.content-Popular-Post img {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+.content-Popular-Post a {
+    text-decoration: none;
+    color: black;
+}
+
+.content-Popular-Post a:hover {
+    color: rgb(174, 68, 68);
+}
+
+.content-Popular-Post h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.content-Popular-Post p {
+    margin-bottom: 15px;
+}
+
